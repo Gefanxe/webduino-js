@@ -41,7 +41,7 @@
 //      4
 // 7654321
   proto.setSegments = function(data) {
-    console.log(data);
+    // console.log(data);
     for(var j = 0; j < 4; j++){
       if(data[j] != null){
         var StrData = data[j].toString();
